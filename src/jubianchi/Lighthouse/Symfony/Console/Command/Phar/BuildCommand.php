@@ -15,7 +15,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Command\Command;
 
-class Build extends Command
+class BuildCommand extends Command
 {
     const NAME = 'phar:build';
     const DESC = 'Builds PHAR';
